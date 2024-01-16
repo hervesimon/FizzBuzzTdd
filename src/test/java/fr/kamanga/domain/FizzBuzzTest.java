@@ -60,6 +60,17 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldReturnBuzzWhenInputIsSix(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(6);
+        // Then
+        assertEquals("Fizz", result);
+
+    }
+
 
 
 
