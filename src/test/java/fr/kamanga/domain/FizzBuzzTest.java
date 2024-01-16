@@ -16,6 +16,17 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldReturnTwoWhenInputIsTwo(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(2);
+        // Then
+        assertEquals("2", result);
+
+    }
+
 
   
 }
