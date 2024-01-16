@@ -27,6 +27,17 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldReturnFizzWhenInputIsThree(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(3);
+        // Then
+        assertEquals("Fizz", result);
+
+    }
+
 
   
 }
