@@ -92,4 +92,15 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldReturnFizzBuzzWhenInputIsFifteen(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(15);
+        // Then
+        assertEquals("FizzBuzz", result);
+
+    }
+
 }

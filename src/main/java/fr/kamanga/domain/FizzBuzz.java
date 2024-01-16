@@ -1,5 +1,9 @@
 package fr.kamanga.domain;public class FizzBuzz {
     public String compute(int i) {
+        if(i % 3 == 0 && i % 5 == 0){
+            return "FizzBuzz";
+        }
+
         if(i % 3 == 0){
             return "Fizz";
         }
@@ -7,7 +11,6 @@ package fr.kamanga.domain;public class FizzBuzz {
         if( i % 5 == 0){
             return "Buzz";
         }
-
         return "" + i;
     }
 }
