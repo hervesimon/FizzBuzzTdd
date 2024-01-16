@@ -1,4 +1,4 @@
-package fr.eudemia;
+package fr.kamanga;
 
 /**
  * Hello world!
