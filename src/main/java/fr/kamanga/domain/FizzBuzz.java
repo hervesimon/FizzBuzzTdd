@@ -4,7 +4,7 @@ package fr.kamanga.domain;public class FizzBuzz {
             return "Fizz";
         }
 
-        if( 5 == i){
+        if( i % 5 == 0){
             return "Buzz";
         }
 

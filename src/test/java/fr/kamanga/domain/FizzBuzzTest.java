@@ -71,8 +71,25 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldReturnSevenWhenInputIsSeven(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(7);
+        // Then
+        assertEquals("7", result);
 
+    }
+    @Test
+    public void shouldReturnBuzzWhenInputIsTen(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(10);
+        // Then
+        assertEquals("Buzz", result);
 
+    }
 
-  
 }
