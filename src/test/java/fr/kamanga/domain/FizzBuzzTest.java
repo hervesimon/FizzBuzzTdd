@@ -38,6 +38,30 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldReturnFourWhenInputIsFour(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(4);
+        // Then
+        assertEquals("4", result);
+
+    }
+
+    @Test
+    public void shouldReturnBuzzWhenInputIsFive(){
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.compute(5);
+        // Then
+        assertEquals("Buzz", result);
+
+    }
+
+
+
 
   
 }

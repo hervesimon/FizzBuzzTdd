@@ -4,6 +4,10 @@ package fr.kamanga.domain;public class FizzBuzz {
             return "Fizz";
         }
 
+        if( 5 == i){
+            return "Buzz";
+        }
+
         return "" + i;
     }
 }
